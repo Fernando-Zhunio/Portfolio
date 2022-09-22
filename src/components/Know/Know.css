@@ -1,0 +1,106 @@
+.know li {
+  list-style: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 5px 10px;
+  color: black;
+  display: inline-block;
+  /* text-shadow: 2px 2px 2px #055160; */
+}
+
+
+
+
+
+.know .content-items > div > div {
+  background-color: white;
+  border-radius: 15px;
+  height: 100%;
+  position: relative;
+}
+
+.know .content-items > div {
+  position: relative;
+}
+
+.know .content-items > div::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 96%;
+  height: 100%;
+  background-color: #0f5132;
+  border-radius: 15px;
+  opacity: 0.5;
+  transform: skew(-3deg, 5deg);
+}
+
+.know .content-items > div:nth-child(1):before {
+  background-color: yellow;
+}
+.know .content-items > div:nth-child(2):before {
+  background-color: blue;
+}
+.know .content-items > div:nth-child(3):before {
+  background-color: red;
+}
+
+.know .ionic-color {
+  color: #3880ff;
+}
+.know .mysql-color {
+  color: #00758f;
+}
+.know .react-color {
+  color: #61dafb;
+}
+.know .angular-color {
+  color: #dd1b16;
+}
+.know .vue-color {
+  color: #42b883;
+}
+.know .laravel-color {
+  color: #ff2d20;
+}
+.know .jquery-color {
+  color: #0769ad;
+}
+.know .bootstrap-color {
+  color: #563d7c;
+}
+.know .html-color {
+  color: #e34c26;
+}
+.know .css-color {
+  color: #264de4;
+}
+.know .js-color {
+  color: #f7df1e;
+}
+.know .php-color {
+  color: #777bb4;
+}
+.konw .typescript-color {
+  color: #007acc;
+}
+.know .csharp-color {
+  color: #239120;
+}
+.know .java-color {
+  color: #007396;
+}
+.know .cplusplus-color {
+  color: #00599c;
+}
+
+.know .postgresql-color {
+  color: #336791;
+}
+.know .unity-color {
+  color: #000000;
+}
+.know .materialui-color {
+  color: #0081cb;
+}
